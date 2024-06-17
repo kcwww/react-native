@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "my-app",
-    "slug": "my-app",
+    "slug": "react-native-study",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -31,6 +31,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c97853eb-4922-42fc-b938-a722ecc5f53a"
+      }
+    },
+    "owner": "chanwooyam"
   }
 }
